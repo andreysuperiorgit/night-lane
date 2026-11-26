@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>NIGHT LANE: same goal, two builds</title>
+<style>
+:root{--bg:#0b0d14;--card:#141826;--line:#262c40;--text:#eef1f8;--mute:#9aa3b8;--amber:#ffb547;--cyan:#5cf0ff}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font:16px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;padding:32px 16px}
+main{max-width:860px;margin:0 auto}h1{font-size:34px;letter-spacing:.04em;margin:0 0 6px}p.lead{color:var(--mute);margin:0 0 24px}
+.task{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px 18px;color:#cfd5e4;font-size:15px;margin-bottom:28px}
+.task b{display:block;color:var(--text);margin-bottom:6px;font-size:13px;letter-spacing:.08em;text-transform:uppercase}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}@media(max-width:640px){.grid{grid-template-columns:1fr}}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:20px}
+.card h2{margin:0 0 4px;font-size:22px}.v h2{color:var(--amber)}.c h2{color:var(--cyan)}
+.card .meta{color:var(--mute);font-size:14px;margin-bottom:14px}
+a.btn{display:block;text-align:center;padding:12px;border-radius:10px;font-weight:700;text-decoration:none;margin-bottom:10px}
+.v a.btn{background:var(--amber);color:#1a1205}.c a.btn{background:var(--cyan);color:#06181b}
+a.sub{display:block;color:var(--mute);font-size:14px;margin:6px 0;text-decoration:underline}
+footer{color:var(--mute);font-size:13px;margin-top:28px}
+</style></head><body><main>
+<h1>NIGHT LANE</h1>
+<p class="lead">The same goal, word for word, given to two tools. Both builds are playable on a phone and on desktop.</p>
+<div class="task"><b>The goal both got</b>Build a one-page browser game called NIGHT LANE. A car drives up an endless road at night, seen from above. Tap the left or right side of the screen, or use the arrow keys, to change lanes and dodge the traffic. Traffic gets faster over time. Show the distance in meters, the best distance, and a crash screen with a restart. It must look great and work on a phone and on desktop. One index.html, no libraries. Open a pull request.</div>
+<div class="grid">
+<div class="card v"><h2>Viktor</h2><div class="meta">Built by Viktor · round 2</div>
+<a class="btn" href="viktor.html">Play Viktor's build</a>
+<a class="sub" href="viktor-round1.html">Round 1 build</a>
+<a class="sub" href="https://github.com/andreysuperiorgit/night-lane/pull/1">Pull request #1</a></div>
+<div class="card c"><h2>Claude Code</h2><div class="meta">Built by Claude Code · round 2</div>
+<a class="btn" href="claude-code.html">Play Claude Code's build</a>
+<a class="sub" href="claude-code-round1.html">Round 1 build</a>
+<a class="sub" href="https://github.com/andreysuperiorgit/night-lane/pull/2">Pull request #2</a></div>
+</div>
+<footer>Tap the left or right half of the screen, or use the arrow keys. Each build is a single HTML file with no libraries.</footer>
+</main></body></html>
